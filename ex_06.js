@@ -7,4 +7,4 @@ function calcularMedia(arr){
     }
     return media;
 }
-console.log(calcularMedia([2, 3, 3, 5, 7,10]))
+console.log(calcularMedia([2, 3, 3, 5, 7,10]));
