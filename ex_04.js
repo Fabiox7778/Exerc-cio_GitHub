@@ -1,7 +1,7 @@
-function inverterArray(array){
-    let arrayRevertida = []
-    for (let i = array.length - 1; i >= 0; i--){
-        arrayRevertida.push(array[i])
+function inverterArray(array) {
+    let arrayRevertida = [];
+    for (let i = array.length - 1; i >= 0; i--) {
+        arrayRevertida.push(array[i]);
     }
     return arrayRevertida;
 }
