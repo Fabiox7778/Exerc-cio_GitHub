@@ -1,9 +1,10 @@
-function calcularMedia(arr){ // função que recebe um array e retorna a média dos valores
+function calcularMedia(arr){
     let media = 0;
     let soma = 0;
-    for(let i = 0; i < arr.length ; i++){ // percorre o array
-        soma += arr[i] // soma os valores
-        media = soma / arr.length // calcula a média
+    for(let i = 0; i < arr.length ; i++){
+        soma += arr[i]
+        media = soma / arr.length
     }
-    return media // retorna a média
+    return media
 }
+console.log(calcularMedia([2, 3, 3, 5, 7,10]))
