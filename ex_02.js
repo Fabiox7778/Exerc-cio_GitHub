@@ -1,4 +1,4 @@
-function maiorNumero(array){
+function maiorNumero(array) {
     return Math.max(...array);
 }
-console.log(maiorNumero([12, 5, 8, 9]))
+console.log(maiorNumero([12, 5, 8, 9]));
